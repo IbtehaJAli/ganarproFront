@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Poppins";
+  /* src: local('Poppins'), url(./fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype'); */
+  src: local("Poppins"),
+    url(./assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"),
+    url(./assets/fonts/Oswald/Oswald-Regular.ttf) format("truetype");
+}
+
+
+body {
+  margin: 0;
+  background: #fff;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*font-family: "Poppins", "Oswald" !important;*/
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+
+  font-family: "Poppins", "Oswald" !important;
+}

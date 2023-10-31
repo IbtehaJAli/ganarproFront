@@ -1,0 +1,97 @@
+#myMap {
+  height: 100vh !important;
+  margin-left: -0.5rem;
+}
+.map-button-container {
+  /* margin-top: 2rem; */
+  /* margin-right: 2rem; */
+  text-align: center;
+  /* width: 500px !important; */
+  width: 800px !important;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.map-button {
+  width: 6rem;
+  color: white;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: transparent !important;
+  border: none;
+  position: relative;
+  margin-right: 5rem;
+}
+
+.map-button:disabled {
+  display: none;
+}
+
+.map-display {
+  width: 12rem;
+  color: white;
+  background: rgba(51, 51, 51, 0.9);
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+
+.draw-icon {
+  content: "Draw";
+  display: flex;
+  height: 45px;
+  width: 40px;
+  position: absolute;
+  /*where to replace the icon */
+  top: 25%;
+  left: 10%;
+  /*background */
+  background: url(../../assets/icons/pen.svg) no-repeat 0px 0px;
+}
+
+.map-button-cancel {
+  /* width: 8rem; */
+  color: white;
+  background-color: transparent !important;
+  border: none;
+  margin-left: 2rem;
+}
+
+.map-button-apply {
+  /* width: 8rem; */
+  color: white;
+  background-color: transparent !important;
+  border: none;
+  margin-right: 5rem;
+  margin-left: 2rem;
+}
+
+.map-button-boundary {
+  /* width: 8rem; */
+  color: white;
+  background-color: transparent !important;
+  border: none;
+  margin-left: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  #myMap {
+    height: 80vh !important;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #myMap {
+    height: 88vh !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #myMap {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+}

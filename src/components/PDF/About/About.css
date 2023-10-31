@@ -1,0 +1,9 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.about_h{
+    font-size: x-large;
+
+}

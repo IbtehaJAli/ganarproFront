@@ -1,0 +1,41 @@
+.board-list-card {
+  padding: 2rem;
+  max-height: 30rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+}
+
+.project-bb {
+  display: grid;
+  grid-template-columns: auto;
+  margin-bottom: 1rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin-left: 1.5rem;
+  padding-right: 1.5rem;
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.location-div {
+  margin-bottom: 4.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .board-list-card {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .project-bb {
+    grid-template-columns: 50% 50%;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1724px) {
+  .project-bb {
+    height: 80vh;
+  }
+}

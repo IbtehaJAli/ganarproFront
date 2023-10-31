@@ -1,0 +1,12 @@
+.pagination-class .active a {
+  background-color: #276fb4;
+  color: white;
+}
+
+.pagination-class div a {
+     height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

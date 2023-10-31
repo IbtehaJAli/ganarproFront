@@ -1,0 +1,26 @@
+.contact-phone-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+  .contact-phone-button-1{
+      width: 100%;
+  }
+  .contact-phone-button-2 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 343px) {
+  .contact-phone-button-1{
+      width: 100%;
+  }
+  .contact-phone-button-2 {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

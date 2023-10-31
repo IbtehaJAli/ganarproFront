@@ -1,0 +1,7 @@
+.card-item:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.03) !important;
+}
+
+.no-records {
+    color: #888888;
+}

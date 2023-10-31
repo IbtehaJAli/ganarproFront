@@ -1,0 +1,88 @@
+.intel-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #80808012;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+  pointer-events: none;
+
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.intel-modal.enter-done,
+.enter-active {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.intel-modal.exit {
+  opacity: 0;
+}
+
+.intel-modal-content {
+  width: 500px;
+  background-color: #fff;
+  transition: all 0.8s ease-in-out;
+  transform: translateY(-200px);
+}
+
+.intel-modal-content.full {
+  width: 100%;
+  background: none;
+}
+
+.intel-modal.enter-done .intel-modal-content {
+  transform: translateY(0);
+}
+
+.intel-modal.exit .intel-modal-content {
+  transform: translateY(-200px);
+}
+
+/* .intel-modal.show {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.intel-modal.show .intel-modal-content {
+  transform: translateY(0);
+} */
+
+.intel-modal-title {
+  margin: 0;
+}
+
+.intel-modal-body {
+  padding: 2rem;
+  /* border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; */
+}
+
+[aria-label="Close"] {
+  color: white !important;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

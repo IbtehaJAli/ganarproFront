@@ -1,0 +1,20 @@
+<svg
+                      width="18"
+                      className="ml-2"
+                      height="20"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.4286 6.71429C11.4286 9.31791 9.31791 11.4286 6.71429 11.4286C4.11066 11.4286 2 9.31791 2 6.71429C2 4.11066 4.11066 2 6.71429 2C9.31791 2 11.4286 4.11066 11.4286 6.71429Z"
+                        stroke="#276FB4"
+                        strokeWidth="2"
+                        strokeLinecap="square"
+                      ></path>
+                      <path
+                        d="M10.6666 10.6667L14 14"
+                        stroke="#276FB4"
+                        strokeWidth="2"
+                      ></path>
+                    </svg>

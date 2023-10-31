@@ -1,0 +1,84 @@
+.btn {
+  font-size: 1.3rem !important;
+  font-family: "Poppins" !important;
+  padding: 0.9rem 2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.03rem;
+}
+
+.btn-medium {
+  background-color: #e5e5e5;
+  color: #333333;
+}
+
+.btn-outline-secondary-intel {
+  background-color: white !important;
+  color: #276fb4 !important;
+  border-color: #276fb4 !important;
+}
+
+.btn-text-intel {
+  color: #276fb4 !important;
+}
+
+.btn-board-nav {
+  color: #276fb4;
+  background-color: white;
+}
+
+/* .btn:hover {
+  background-color:  !important;
+  color: white !important;
+  border-color: #f68e39 !important;
+} */
+
+.btn-medium:hover {
+  background-color: #f68e39;
+  color: white;
+}
+
+.btn-primary:hover {
+  border-color: #f68e39 !important;
+  background-color: #f68e39;
+  color: white;
+}
+
+.btn-outline-secondary-intel:hover {
+  background-color: white !important;
+  color: #f68e39 !important;
+  border-color: #f68e39 !important;
+}
+
+.btn-text-intel:hover {
+  color: #f68e39 !important;
+  border: none;
+}
+
+.btn-board-nav:hover {
+  color: #f68e39;
+}
+
+.btn:disabled {
+  background-color: #e5e5e5 !important;
+  color: #aaaaaa !important;
+  border-color: #e5e5e5 !important;
+}
+
+.btn-outline-secondary-intel:disabled {
+  background-color: white !important;
+  color: #aaaaaa !important;
+  border-color: #e5e5e5 !important;
+}
+
+.btn-text-intel:disabled {
+  color: #aaaaaa !important;
+}
+
+.btn-small {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+}
+

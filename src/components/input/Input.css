@@ -1,0 +1,112 @@
+.select-box--container {
+  /* height: 30px; */
+  /* border: 1px solid #aaa; */
+  /* width: 100%; */
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.select-box--box {
+  /* width: 200px;
+  position: absolute;
+  left: 15px; */
+}
+
+.select-box--selected-item {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 4px 12px;
+  vertical-align: middle;
+}
+
+.select-box--items div {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 6px;
+  padding-left: 20px;
+}
+
+.select-box--arrow {
+  /* width: 30px; */
+  /* height: 30px; */
+  /* margin: 0; */
+  /* padding: 0; */
+  display: inline-block;
+  /* background: #aaaaaa; */
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 0.3ren;
+  border-top-left-radius: 0.3ren;
+}
+
+.select-box--arrow-down {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid red;
+}
+
+.select-box--arrow-up {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid red;
+}
+
+.select-input {
+  /* width: 200px; */
+  background: #fff;
+  /* min-height: 180px; */
+  /* top: 60px;
+  right: 5px; */
+  box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+  z-index: 1;
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.select-input.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.select-input-item:hover {
+  background-color: #276fb4;
+  color: white;
+}
+
+.input-error {
+  border: 1px solid #d34a4a;
+}
+
+.select-inactive-down {
+  background-color: #276fb4;
+}
+
+.select-active-down {
+  background-color: #f68e39;
+}

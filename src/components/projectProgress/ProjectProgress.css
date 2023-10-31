@@ -1,0 +1,93 @@
+.check-container {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.check-container-first {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-progress {
+  background: #ffffff;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 90%;
+  padding: 3rem 3rem;
+  /* display: grid; */
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+
+.progress-list > div {
+  margin-bottom: 1.2rem;
+}
+
+.progress-list {
+  /* border-top: 4px solid #276fb4; */
+  padding-top: 2.2rem;
+}
+
+.active-project-progress .progress-header {
+  color: #276fb4;
+}
+
+.active-project-progress .progress-list {
+  border-top: 4px solid #276fb4;
+}
+
+.not-active .progress-list {
+  border-top: 4px solid #aaaaaa;
+}
+
+.not-active {
+  color: #aaaaaa;
+}
+
+.not-active-bar .check-container-first {
+  background-color: white;
+  color: #cccccc;
+}
+
+.not-active-bar .check-container {
+  background-color: white;
+  color: #cccccc;
+}
+
+.active-bar .check-container,
+.check-container-first {
+  background-color: white;
+  color: #ffffff;
+}
+
+.active-bar .second-bar {
+  background-color: #f97700;
+  color: #ffffff;
+}
+
+.active-bar .third-bar {
+  background-color: #fec600;
+  color: #ffffff;
+}
+
+.active-bar .fourth-bar {
+  background-color: #78c13f;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-progress {
+    display: flex;
+  }
+} 
+@media only screen and (min-width: 1024px) {
+  .project-stage-row {
+    width: 95%;
+  }
+}

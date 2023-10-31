@@ -1,0 +1,20 @@
+.comment-action .col {
+  width: 6.25rem;
+}
+
+.reply-action .col {
+  width: 8.5rem;
+}
+
+@media only screen and (max-width: 701px) {
+  .comment-action-label {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .comment-action {
+    width: 80%;
+  }
+}

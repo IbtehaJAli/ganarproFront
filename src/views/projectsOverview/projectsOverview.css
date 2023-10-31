@@ -1,0 +1,34 @@
+.overview-container {
+    width: 90vw;
+    margin-inline: auto;
+}
+
+.page-title {
+    font-size: 30px;
+}
+
+.para {
+    font-size: 18px;
+    max-width: 60vw;
+}
+
+.learn-more {
+    font-size: 16px;
+    text-decoration: none;
+    color: #276fb4;
+}
+
+.learn-more:hover {
+    color: #1d7ad2;
+}
+
+.get-started {
+    width: fit-content;
+    text-align: start;
+    padding: 4px 8px;
+    border-bottom: 2px solid #276fb4;
+}
+
+.get-started:hover {
+    cursor: pointer;
+}

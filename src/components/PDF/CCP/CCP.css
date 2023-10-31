@@ -1,0 +1,14 @@
+.ccp{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.ccp_h{
+    font-size: x-large;
+}
+.edit-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }

@@ -1,0 +1,110 @@
+.form-check {
+  text-align: left;
+}
+.form-check > label {
+  margin-left: 10px;
+}
+
+.form-check-input {
+  top: 1.2rem;
+  scale: 1.7;
+  margin-right: 0.5rem;
+}
+
+.form-check.previous .form-check-input:checked {
+  background-color: white;
+  border-color: #276FB4 !important;
+  --bs-form-check-bg-image: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27><path fill=%27none%27 stroke=%27%23276FB4%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m6 10 3 3 6-6%27/></svg>") !important;
+}
+
+.current .form-check-label {
+  color: #276FB4 !important;
+  padding-top: 0px;
+}
+
+.form-check.current .form-check-input:checked {
+  background-color: #276FB4  ;
+  border-color: #276FB4 !important;
+  --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27m6 10 3 3 6-6%27/%3e%3c/svg%3e ") !important;
+}
+
+.progress-bar {
+  background-color: #276FB4 !important;
+}
+
+.form-select {
+  font-size: 13px !important;
+}
+
+.card-custom {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border: none;
+  box-shadow: 0px 1px 20px 2px rgb(0 0 0 / 22%) !important;
+}
+
+.header-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-custom:hover {
+  box-shadow: 0px 1px 20px 2px rgb(0 0 0 / 22%) !important
+}
+
+.card-custom h3, .card-custom p {
+  padding: 5px;
+}
+
+/* Define the separator */
+.col-separator {
+  width: 15px; /* Adjust the width as needed */
+  height: auto;
+  background-color: transparent;
+}
+
+/* Define the separator */
+.col-separator-visible {
+  width: 1px; /* Adjust the width as needed */
+  height: auto;
+  background-color: rgb(0 0 0 / 10%);
+}
+
+.mobile-view-card {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Adjust flex direction for mobile view */
+@media (max-width: 767px) {
+  .card-custom {
+    flex-direction: column;
+  }
+
+  .header-card {
+    flex-direction: column;
+  }
+
+  .col-separator {
+    display: none; /* Hide the separator on mobile view */
+  }
+
+  .col-separator-visible {
+    display: none; /* Hide the separator on mobile view */
+  }
+}
+
+.upper-card {
+  width: auto;
+  padding: 20px;
+  border: none;
+  box-shadow: 0px 1px 20px 2px rgb(0 0 0 / 22%) !important;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+h1.mb-4, h2.mb-4 {
+  font-size: 30px;
+}

@@ -1,0 +1,68 @@
+.signup-page {
+  /* background-image: url("../../assets/img/register.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover; */
+}
+.signup-form-container {
+  /* max-width: 35rem; */
+}
+
+.signup-header {
+  /* font-size: 3.5rem; */
+}
+
+.intl-tel-input {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .signup-page {
+    background-image: url("../../assets/img/register.png");
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+  }
+  .signup-form-container {
+    /*margin-left: auto;*/
+    margin-right: 5%;
+  }
+
+  .signup-page-div {
+    height: 100vh;
+    /* margin-left: auto; */
+    /* margin-right: 5%; */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .signup-text {
+    width: 70%;
+  }
+  .signup-form-container {
+    width: 80%;
+    /*margin-left: auto;*/
+    margin-right: 5%;
+  }
+  .signup-form {
+    width: 80%;
+  }
+
+  .signup-form input {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .signup-form-container {
+    width: 60%;
+    /*margin-left: auto;*/
+    margin-right: 5%;
+  }
+}

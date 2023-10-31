@@ -1,0 +1,67 @@
+.autocomplete-dropdown-container {
+  min-height: 150px;
+  background-color: #fff;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  max-width: 395px;
+  width: 100%;
+  border: 1px solid #e2e9f4;
+  position: fixed;
+  z-index: 99;
+  max-height: 150px;
+  text-align: left;
+}
+
+.suggestion-item {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.suggestion-item:nth-child(even) {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.suggestion-item--active {
+  background-color: #2a5799;
+  padding: 0.5rem;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.no-suggestion {
+  height: 0px;
+}
+
+.search-current-location {
+  width: 100%;
+  background: white;
+  position: absolute;
+  z-index: 1;
+  padding: 5px;
+  text-align: left;
+  margin-top: 2%;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .location-search-input,
+  .map-search-input {
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    border-radius: 0.4rem;
+  }
+  .location-search-input::placeholder, .map-search-input::placeholder {
+    color: #aaaaaa !important;
+  }
+  .autocomplete-dropdown-container {
+    position: absolute;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .autocomplete-dropdown-container {
+    position: absolute;
+  }
+}

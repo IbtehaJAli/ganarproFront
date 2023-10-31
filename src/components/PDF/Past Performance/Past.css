@@ -1,0 +1,22 @@
+.past {
+  display: flex;
+  flex-direction: row;
+  gap:3rem;
+  align-items: center;
+}
+
+.performance-table {
+  border-collapse: collapse;
+}
+
+.performance-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+
+.past_img{
+  background-color: #f2f2f2;
+  height: auto;
+  width:  250px;
+}

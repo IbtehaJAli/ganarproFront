@@ -1,0 +1,155 @@
+.pricing-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styling for each pricing item */
+.pricing-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for the dot icon */
+.pricing-icon {
+  margin-right: -20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dot-green {
+  background-color: #00cc66; /* Customize the dot color */
+}
+
+.dot-blue {
+  background-color: #3399ff; /* Customize the dot color */
+}
+
+.dot-orange {
+  background-color: #ff9900; /* Customize the dot color */
+}
+
+.pricing-content {
+  display: flex;
+}
+
+.calculator-title {
+  font-size: 24px;
+}
+
+/* Styling for the pricing content */
+.pricing-content h3 {
+  width: 100%!important;
+  margin: 0;
+  width: auto;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card{
+  box-shadow: none !important;
+  transform: scale(1, 1) !important;
+
+}
+
+.card:hover {
+  box-shadow: none !important;
+  transform: scale(1, 1) !important;
+}
+
+.form-label {
+  text-align: start;
+  width: 96%;
+}
+
+.col-6 {
+  align-self: flex-end;
+}
+
+.border_line {
+  flex-grow: 1;
+  border-bottom: 1px dashed rgb(161, 161, 161);
+  margin-bottom: 2px;
+}
+
+.delete {
+  color: rgb(87, 87, 87);;
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bottom-margins {
+  margin: 15px 65px 0 8px;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bottom-margins {
+    margin: 15px 60px 0 8px;
+  }
+}
+
+.info-span {
+  font-size: medium;
+  align-self: baseline;
+  margin-left: 8px;
+}
+
+.info-span-bottom {
+  font-size: medium;
+  align-self: center;
+  color: black;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.date-style {
+  width: 100%;
+  text-align: start;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.three-custom-text {
+  font-size: 15px;
+  color: black;
+  align-self: self-end
+}
+
+.three-custom-inputs {
+  width: 12%;
+  min-width: 90px;
+  height: fit-content;
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.currency-symbol {
+  color:black;
+  margin-right: -12px;
+  z-index: 1;
+  font-size: 15px;
+  align-self: self-end;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.tooltip {
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  white-space: pre-line;
+}

@@ -1,0 +1,25 @@
+.service-img {
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+}
+
+.service-img:hover {
+    object-fit: cover;
+}
+
+.service-title {
+    font-size: 28px;
+}
+
+.service-para {
+    font-size: 18px;
+    width: 350px;
+    text-align: start;
+}
+
+.service-btn {
+    margin: 0 !important;
+    padding-inline: 10px !important;
+    border-radius: 10px;
+}

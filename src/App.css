@@ -1,0 +1,419 @@
+:root {
+  /* font-size: 15px; */
+  font-size: 62.5%;
+  /*font-family: "Poppins" !important;*/
+}
+
+body {
+  font-size: 1.3rem;
+}
+
+.App {
+  text-align: center;
+  /* max-width: 1440px; */
+  margin: auto;
+  overflow: hidden;
+  color: #333333;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.font-oswald {
+  /*font-family: "Oswald" !important;*/
+}
+
+.text-10 {
+  /* font-size: 0.6rem; */
+  font-size: 1rem;
+}
+
+.text-13,
+h6 {
+  /* font-size: 0.8rem; */
+  font-size: 1.3rem;
+}
+
+.text-14 {
+  /* font-size: 0.9rem; */
+  font-size: 1.4rem;
+}
+
+.text-15 {
+  font-size: 1.5rem;
+}
+
+.form-control {
+  font-size: 1.3rem;
+}
+.text-16 {
+  /* font-size: 1.1rem; */
+  font-size: 1.6rem;
+}
+
+.text-20 {
+  font-size: 2rem !important;
+}
+
+.text-24 {
+  font-size: 2.4rem;
+}
+
+.text-26 {
+  font-size: 2.7rem !important;
+}
+
+.text-28 {
+  font-size: 2.8rem;
+}
+
+.text-32 {
+  font-size: 3.2rem;
+}
+
+.text-60 {
+  font-size: 4rem;
+}
+
+.orange-100 {
+  background-color: #e35151;
+}
+.orange-200 {
+  background-color: #f97700;
+}
+.orange-300 {
+  background-color: #fec600;
+}
+
+.green-100 {
+  background-color: #78c13f;
+}
+.black-100 {
+  color: #000000;
+}
+
+.black-200 {
+  color: #333333;
+}
+
+.black-300 {
+  color: #888888;
+}
+
+.black-400 {
+  color: #aaaaaa;
+}
+
+.blue-100 {
+  color: #276fb4;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.rounded-4 {
+  border-radius: 0.5rem;
+}
+
+.rounded-5 {
+  border-radius: 0.7rem;
+}
+
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+
+
+.cost-1 {
+  height: 100rem;
+  background-color: red;
+}
+
+.bidAmount-1 {
+  height: 100rem;
+  background-color: blue;
+}
+
+.costProfit-1 {
+  height: 100rem;
+  background-color: yellow;
+}
+.position-relative {
+  position: relative;
+}
+
+.scroll-cal {
+  background-color: white;
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+  /* left: 5%; */
+}
+
+.clean-cal {
+  overflow: scroll;
+  height: 80vh;
+  /* margin-top: 8rem; */
+}
+
+
+.scroll-new-btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(39, 111, 180) !important;
+  color: white;
+}
+
+.bg-success {
+  background-color: #249d5c;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+/* 
+  START
+  FONT
+  STYLING
+  CLASSES
+*/
+
+.heading-1 {
+  font-family: "Oswald" !important;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 130%;
+  letter-spacing: 0;
+}
+
+.heading-2 {
+  font-family: "Oswald" !important;
+  font-weight: 900;
+  font-size: 4.4rem;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.heading-3 {
+  font-family: "Oswald" !important;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+}
+
+.heading-4 {
+  font-family: "Oswald" !important;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 160%;
+  letter-spacing: 0.4px;
+}
+
+.lead-text {
+  font-family: "Oswald" !important;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 160%;
+  letter-spacing: 0;
+}
+
+.lead-text-2 {
+  font-family: "Oswald" !important;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  letter-spacing: 0.4px;
+}
+
+.sub-title {
+  font-family: "Poppins" !important;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.body-text {
+  font-family: "Poppins" !important;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 160%;
+  letter-spacing: 0.4px;
+}
+
+.body-text-bold {
+  font-family: "Poppins" !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+}
+
+.caption-text {
+  font-family: "Poppins" !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  line-height: 16px !important;
+  letter-spacing: 0.4px !important;
+}
+
+.pretitle {
+  font-family: "Poppins" !important;
+  font-weight: 500 !important;
+  font-size: 1.6rem !important;
+  line-height: 150% !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+}
+
+/* 
+  END
+  FONT
+  STYLING
+  CLASSES
+*/
+
+a .svg-icon:hover {
+  color: #f68e39;
+}
+
+.svg-icon:hover {
+  color: #f68e39;
+}
+
+.svg-container {
+  color: #AAAAAA;
+}
+
+.svg-container:hover {
+  color: #f68e39;
+}
+
+.my-proposal-col {
+  z-index: 0;
+}
+
+.form-floating > .form-control:not(:placeholder-shown) + #estimate-name-label {
+  opacity: 0 !important;
+  /* background-color: red; */
+}
+
+.select__control--menu-is-open ~ #estimate-name-label {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /* :root { */
+  /* font-size: 1.0416666666666665vw; */
+  /* font-size: 1.3rem; */
+  /* } */
+
+  /* body {
+    font-size: 0.9333;
+    font-size: 1.3rem;
+  } */
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #249d5c !important;
+  border-color: #249d5c !important;
+}
+
+.calculator-tool-tip-parent {
+  position: relative;
+}
+
+.calculator-tool-tip {
+  position: absolute;
+  z-index: 1;
+  right: 3%;
+  top: 5%;
+}
+
+.bs-tooltip-start {
+  width: 160px !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .page-container.move-page {
+    margin-left: 220px;
+  transition: 0.5s;
+  }
+
+  .page-container.unmove-page {
+    /* margin-left: 5.5%; */
+    margin-left: 60px;
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .text-13 {
+    /* font-size: 1rem; */
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 1444px) {
+  /* :root {
+    font-size: 100%;
+  }
+  body {
+    font-size: 1.4rem;
+  } */
+
+  .scroll-cal {
+    top: 21%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #noanim-tab-example-tabpane-bidAmount {
+    padding: 0.5rem;
+  }
+}
+
